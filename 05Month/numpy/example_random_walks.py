@@ -5,7 +5,7 @@ import numpy as np
 import numpy.random as np_random
 import pylab
 
-print '模拟随机游走'
+print('模拟随机游走')
 nsteps = 1000
 draws = np.random.randint(0, 2, size=nsteps)
 steps = np.where(draws > 0, 1, -1)

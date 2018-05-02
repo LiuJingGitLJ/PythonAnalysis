@@ -29,7 +29,7 @@ cond_1 = np.array([True, False, True, True, False])
 cond_2 = np.array([False, True, False, True, False])
 # 传统代码如下
 result = []
-for i in xrange(len(cond)):
+for i in range(len(cond)):
     if cond_1[i] and cond_2[i]:
         result.append(0)
     elif cond_1[i]:
